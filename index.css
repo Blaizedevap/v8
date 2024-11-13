@@ -1,0 +1,251 @@
+body{
+    margin-left: 0px;
+    background-color:  white;
+}
+
+.navbar{
+    background-color: #F7879A;
+    height: 100px;
+    z-index: 100px;
+    top: 1%;
+    /* font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5); */
+   
+
+}
+
+.navbar-brand{
+    font-size: 40px;
+    top: 1%;
+    font-weight: bold;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.collapse{
+    justify-content: end;
+}
+
+.collapse ul li a button{
+    background-color:  #F7879A ;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border:#F7879A;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.bi{
+    font-size: 20px;
+}
+
+/* .carousel-inner .carousel-item img{
+    width: 90%;
+    height: 400px;
+    position: relative;
+    left: 5%;
+    object-fit: cover
+
+} */
+
+.liste li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    color: #003366;
+    font-size: 15px;
+    font-weight: bold;   
+    
+}
+.liste li a{
+    text-decoration: none;
+    color: #F7879A;
+    /* text-shadow: 2px 15px 4px black; */
+
+}
+.liste{
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 25px;
+} 
+
+/* .carousel{
+    margin-top: 150px;
+} */
+
+#pop1-2 ul li{
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    /* text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5); */
+    text-decoration: none;
+}
+
+
+.pop1{
+    margin-top: 100px;
+    padding: auto;
+    display: flex;
+    gap: 30px;
+    border-radius: 80px;   
+    /* display: inline-block; */
+}
+
+.pop1 img{
+    margin-left: 20px;
+    /* border-radius: 40px; */
+    box-shadow: 30px 30px 0px rgba(0, 0, 0, 0.5);
+    height: 600px;
+    /* border-radius:  40% 60% 56% 44% / 100% 0% 100% 0%; */   
+}
+
+.Lmt{
+    margin-top: 5px;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    /* text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5); */
+
+}
+
+#titregamme{
+    margin-top: 30px;
+    background-color: #F7879A;
+    color: white;
+    padding-bottom: 10px;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+
+}  
+
+/* #Theordinary{
+    margin-top: 30px;
+    background-color: #F7879A;
+    color: white;
+    padding-bottom: 10px;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+} */
+
+.frth4{
+    margin-top: 75px;
+    position:relative;
+   text-align: center;
+   color: black;
+   text-shadow: 2px 15px 4px black;
+}
+
+.frth5{
+    margin-top: 50px;
+    position:relative;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 15px 4px black;
+    font-weight: bold;
+}
+
+#prod img{
+    width: 100px;
+    /* border: 4px solid yellow; */
+    /* border-radius: 40px; */
+    /* box-shadow: -30px 30px 0px rgba(7, 7, 7, 0.5); */
+
+}
+
+#contener1{
+    margin-top: 75px;
+    display: flex;
+    justify-content:space-around;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    /* justify-content:space-between;
+    gap: 2px; */
+    /* margin-left: 100px; */
+    /* row-gap: 10px; */
+    /* border: 2px solid black */
+}
+
+#contener2{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+
+#contener3{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+/* #titrerocheposay{
+    margin-top: 50px;
+    background-color: #F7879A;
+    color: white;
+    padding-bottom: 10px;
+    text-shadow: 2px 15px 4px rgba(0, 0, 0, 0.5);
+} */
+
+#prod button{
+    /* border-radius: 40px; */
+    background-color: #F7879A;
+    color: white;
+    font-weight: bold;
+    border-color: #F7879A;
+
+}
+
+
+
+#pop1-2{
+    border: 3px solid bl;
+}
+
+
+@media(max-width:590px){
+
+    #prod img{
+        width: 100px;
+        /* border: 4px solid yellow; */
+
+    }
+}
+
+
+#logo img{
+    
+    width: 200px;
+    height: 200px;
+}
+#logo{
+    text-align: center;
+}
+
+
+.carousel{
+    
+   
+    height: 600px;
+    width: 100%;
+    perspective: 400px;
+    margin-top: 1%;
+}
+
+.carousel .carousel-item{
+    /* height: 600px; */
+    /* box-shadow: 0 0 40px #61dafb, 0 0 40px #61dafb, 0 0 40px #61dafb ; */
+    /* box-shadow: 0 0 40px #eb769d, 0 0 40px #eb769d, 0 0 40px #eb769d ; */
+    /* animation: animate 2s infinite alternate;*/
+    border-radius: 30px;
+}
+
+.carousel .carousel-item img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+
+}
